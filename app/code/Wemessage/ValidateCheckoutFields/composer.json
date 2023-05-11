@@ -1,0 +1,22 @@
+{
+    "name": "wemessage/module-validatecheckoutfields",
+    "description": "S",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Wemessage",
+            "email": "naberd@mwemessage.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Wemessage\\ValidateCheckoutFields\\": ""
+        }
+    }
+}
